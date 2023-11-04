@@ -4,16 +4,9 @@ import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
-      
-      <div>
-        <br />
-        <h1> </h1>
-        <br />
-        <h1> </h1>
-        <br />
-        <h1> </h1>
-        <br />
 
+    <section className="hero-section">
+        <div>
         <div data-aos="fade-up" className="flex-hero">
             
             <h1>
@@ -39,6 +32,7 @@ const LandingPage = () => {
             </a>
         </div>
       </div>
+    </section>
   );
 };
 
