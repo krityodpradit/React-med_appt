@@ -35,7 +35,7 @@ const Notification = ({ children }) => {
       {children}
       {1 && 1 && (
         <>
-          <div className="appointment-card">
+          {/* <div className="appointment-card">
             <div className="appointment-card__content" style={{
                 backgroundColor: "DodgerBlue",
                 color: "white",
@@ -67,7 +67,7 @@ const Notification = ({ children }) => {
               </p>
 
             </div>
-          </div>
+          </div> */}
         </>
       )}
     </div>

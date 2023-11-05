@@ -8,6 +8,7 @@ import SignUp from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation';
 import Notification from './Components/Notification/Notification';
+import GiveReviews from './Components/ReviewForm/ReviewForm';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/instant-consultation" element={<InstantConsultation />} />
+                <Route path="/review" element={<GiveReviews />} />
                 
 
               </Routes>
